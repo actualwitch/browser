@@ -1,0 +1,13 @@
+#. "$topsrcdir/browser/config/mozconfigs/macosx64-aarch64/common-opt"
+. $topsrcdir/build/macosx/mozconfig.common
+
+# ac_add_options --enable-instruments
+ac_add_options --with-branding=browser/branding/elysium
+ac_add_options --with-ccache=sccache
+# ac_add_options --target=aarch64-apple-darwin
+# ac_add_options --with-app-name=Elysium
+# TODO explore enabling this target
+# ac_add_options --target=aarch64-apple-macos
+# ac_add_options --with-macos-sdk=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk
+
+. "$topsrcdir/build/mozconfig.common.override"

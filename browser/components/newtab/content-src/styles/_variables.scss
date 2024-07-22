@@ -52,8 +52,8 @@ $in-content-page-color-dark: rgb(251, 251, 254);
 // themes. The color set in --tabpanel-background-color (tabs.inc.css) should
 // match these colors here to avoid flashing.
 
-$in-content-page-background: #F9F9FB;
-$in-content-page-background-dark: #2B2A33;
+$in-content-page-background: transparent;
+$in-content-page-background-dark: transparent;
 
 $newtab-background-secondary: #FFF;
 $newtab-background-secondary-dark: rgb(66, 65, 77);

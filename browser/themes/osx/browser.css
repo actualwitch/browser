@@ -282,3 +282,20 @@ moz-input-box > menupopup .context-menu-add-engine > .menu-iconic-left {
   margin-inline-end: -10px;
   margin-top: -14px;
 }
+
+:root {
+  --tabpanel-background-color: transparent;
+  background: transparent;
+}
+
+#nav-bar {
+  border-top: unset;
+}
+
+#navigator-toolbox {
+  border-bottom: unset;
+}
+
+#PersonalToolbar, .notificationbox-stack, #nav-bar {
+  background: transparent;
+}

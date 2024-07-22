@@ -7,9 +7,9 @@
 :root {
   /* --tabpanel-background-color matches $in-content-page-background in newtab
      (browser/components/newtab/content-src/styles/_variables.scss) */
-  --tabpanel-background-color: #F9F9FB;
+  --tabpanel-background-color: transparent;
   @media (-moz-content-prefers-color-scheme: dark) {
-    --tabpanel-background-color: #2B2A33;
+    --tabpanel-background-color: transparent;
   }
   &[privatebrowsingmode=temporary] {
     /* Value for --in-content-page-background in aboutPrivateBrowsing.css.
@@ -409,4 +409,12 @@
  * we remove it here: */
 #window-modal-dialog > .dialogOverlay[topmost="true"] {
   background-color: transparent;
+}
+
+
+
+
+:root {
+  --tabpanel-background-color: transparent;
+  background: transparent;
 }

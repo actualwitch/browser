@@ -3250,3 +3250,31 @@ pref("toolkit.contentRelevancy.enabled", false);
 pref("toolkit.contentRelevancy.ingestEnabled", false);
 // Pref to enable extra logging for the content relevancy feature
 pref("toolkit.contentRelevancy.log", false);
+
+
+
+
+
+
+
+pref("browser.tabs.allow_transparent_browser", true);
+pref("browser.display.background_color", "transparent");
+pref("browser.display.background_color.dark", "transparent");
+pref("widget.macos.titlebar-blend-mode.behind-window", true);
+pref("devtools.cache.disabled", true);
+pref("devtools.debugger.prompt-connection", true)
+pref("dom.security.https_only_mode", true);
+pref("extensions.pocket.enabled", false);
+pref("identity.fxaccounts.enabled", false);
+pref("pdfjs.disabled", true);
+pref("privacy.resistFingerprinting", true);
+pref("privacy.trackingprotection.enabled", true);
+pref("privacy.trackingprotection.socialtracking.enabled", true);
+pref("browser.warnOnQuitShortcut", false);
+pref("dom.security.https_only_mode", true);
+pref("dom.security.https_only_mode.upgrade_local", true);
+pref("dom.security.https_only_mode_ever_enabled", true);
+pref("toolkit.legacyUserProfileCustomizations.stylesheets", true);
+pref("browser.startup.page", 3);
+pref("browser.startup.homepage", "about:blank");
+pref("browser.newtabpage.enabled", false);

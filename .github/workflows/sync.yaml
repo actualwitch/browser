@@ -1,0 +1,31 @@
+name: Sync upstream changes
+on:
+  schedule:
+    - cron: "0 10 * * SAT"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      -
+        name: Checkout
+        uses: actions/checkout@v4
+        with:
+          ref: master
+      -
+        name: Prepare
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+      -
+        name: Sync
+        run: |
+          git remote add upstream https://github.com/mozilla/gecko-dev.git
+          git fetch upstream
+          git checkout main
+          git merge upstream/master --allow-unrelated-histories
+          git push origin main
