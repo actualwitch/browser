@@ -76,7 +76,7 @@ input {
 }
 :root[lwt-newtab-brighttext] {
   color-scheme: dark;
-  --newtab-background-color: #2B2A33;
+  --newtab-background-color: transparent;
   --newtab-background-color-secondary: #42414d;
   --newtab-text-primary-color: #fbfbfe;
   --newtab-contextual-text-primary-color: light-dark(#15141a, var(--newtab-text-primary-color));
