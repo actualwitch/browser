@@ -25,7 +25,7 @@
   --in-content-item-selected: var(--in-content-primary-button-background);
   --in-content-item-selected-text: var(--in-content-primary-button-text-color);
   --in-content-icon-color: rgb(91,91,102);
-  --in-content-accent-color: var(--in-content-primary-button-background);
+  --in-content-accent-color: hotpink;
   --in-content-accent-color-active: var(--in-content-primary-button-background-hover);
   --in-content-border-hover: var(--grey-90-a50);
   --in-content-border-invalid: var(--red-50);
